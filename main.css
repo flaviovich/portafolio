@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.superior {
+  background-image: url("./img/pexels-pixabay-356043.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul > li {
+  padding: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.header a:hover {
+  color: burlywood;
+  border-bottom: 5px solid burlywood;
+}
+
+.banner {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.banner div:nth-child(1) {
+  margin-left: 12%;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: 500;
+  color: burlywood;
+}
+
+.subtitulo {
+  color: #fff;
+  margin: 10px 0;
+}
+
+.btn-primary {
+  background-color: #ff6464;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.enlaces {
+  margin-top: 10px;
+}
+
+.enlaces img {
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+.img-profile {
+  width: 243px;
+  height: 243px;
+  border-radius: 50%;
+  margin-left: 30px;
+  border: 3px solid burlywood;
+}
+
+.redes-sociales {
+  margin-left: 50px;
+}
+
+.sobre-mi {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.trabajos {
+  background-color: lightgray;
+}
+
+.section-works {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 25px;
+}
+
+.card div img {
+  width: 246px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.text-works {
+  font-size: 3em;
+  margin-bottom: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container-detail {
+  margin-left: 5px;
+}
+
+.container-detail a {
+  margin-top: 5px;
+}
+
+.container-detail h2 {
+  font-size: 18px;
+}
+
+.container-detail p {
+  margin: 0;
+}
+
+.label-dark {
+  background-color: #142850;
+  color: #fff;
+  border-radius: 16px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.text-light {
+  color: #8695a4;
+  font-size: 12px;
+}
+
+.resume {
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+hr {
+  height: 0.5px;
+  background-color: #e0e0e0;
+  border: 0.5px solid #e0e0e0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.link-portafolio {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-portafolio:hover {
+  color: #ff6464;
+  text-decoration: underline;
+}
+
+.link-portafolio img:hover{
+  border: 3px solid red;
+}
+
+.contact form {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact form input {
+    height: 60px;
+    width: 350px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+.contact form select {
+    height: 60px;
+    width: 365px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid gray;
+}
+
+.contact form textarea {
+    height: 200px;
+    width: 740px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border: 1px solid gray;
+}
+
+.contact form div{
+    display: flex;
+    justify-content: center;
+}
+
+.contact form button {
+    background-color: #832FDA;
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+}
+
+/*Aca inicia responsive*/
+@media only screen and (max-width: 600px) {
+    .banner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
